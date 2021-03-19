@@ -7,7 +7,6 @@
   --accent-background-color: #2196f3;
   --button-hero-text-color: #ffffff;
   --bg-hero-color: #2f303a;
-  --card-set-gap: 30px;
 }
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
@@ -65,6 +64,11 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .link {
   text-decoration: none;
@@ -142,8 +146,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-/*герой*/
 
+/*герой*/
 .section-hero {
   background-color: var(--bg-hero-color);
   padding-top: 200px;
@@ -185,14 +189,30 @@ body {
   background-color: #188ce8;
 }
 /*преимущества*/
+
 .section-advantages {
   padding-top: 94px;
   padding-bottom: 0;
 }
+.advantages {
+  display: flex;
+  flex-direction: row;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.item-advantages {
+  align-items: center;
+  width: 270px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .title-content {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
@@ -200,7 +220,56 @@ body {
   margin-bottom: 10px;
 }
 .p-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--secondary-text-color);
 }
+
+/*business*/
+.business {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.business-item {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 3 * 30px) / 3);
+}
+/*Our team*/
+.team-name {
+  font-style: 400px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.prof-item {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.card {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 4 * 30px) / 4);
+}
+
 /*buttons*/
 .work-list {
   margin-left: auto;
