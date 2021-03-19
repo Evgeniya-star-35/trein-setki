@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!--Шапка сайта-->
+    <header>
+      <div class="container main-nav">
+        <nav class="header-nav">
+          <a href="" class="logo logo-nav">
+            <span class="span-web">Web</span
+            ><span class="span-studio">Studio</span></a
+          >
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="link-current link-item">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link-item">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link-item">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="list contact">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="header-email link-item"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link-item header-tel">
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!--Герой-->
+      <section class="section-hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="hero-button">Заказать услугу</button>
+      </section>
+
+      <!--Преимущества-->
+      <section class="section">
+        <div class="container">
+          <h2 class="title-section visually-hidden">Преимущества</h2>
+          <ul class="list advantages">
+            <li class="item-advantages">
+              <h3 class="title-content">Внимание к деталям</h3>
+              <p class="p-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="item-advantages">
+              <h3 class="title-content">Пунктуальность</h3>
+              <p class="p-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="item-advantages">
+              <h3 class="title-content">Планирование</h3>
+              <p class="p-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="item-advantages">
+              <h3 class="title-content">Современные технологии</h3>
+              <p class="p-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Чем мы занимаемся-->
+      <section class="section">
+        <div class="container">
+          <h2 class="title-section">Чем мы занимаемся</h2>
+          <ul class="list business">
+            <li class="business-item">
+              <img
+                src="./images/foto1/mac.jpg"
+                alt="Команда создает десктопное приложение"
+                width="370"
+                height="294"
+                class="picture"
+              />
+            </li>
+            <li class="business-item">
+              <img
+                src="./images/foto1/nout.jpg"
+                alt="Команда создает мобильное приложение"
+                width="370"
+                height="294"
+                class="picture"
+              />
+            </li>
+            <li class="business-item">
+              <img
+                src="./images/foto1/planshet.jpg"
+                alt="Дизайнерские решения"
+                width="370"
+                height="294"
+                class="picture"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Наша команда-->
+
+      <section class="section team">
+        <div class="container">
+          <h2 class="title-section">Наша команда</h2>
+          <ul class="team-list list team-cards">
+            <li class="card">
+              <div class="img-card">
+                <img
+                  src="./images/foto1/igor.jpg"
+                  alt="Фото Игоря Демьяненко"
+                  width="270"
+                  height="260"
+                  class="img"
+                />
+              </div>
+              <div class="content-card">
+                <h3 class="team-name">Игорь Демьяненко</h3>
+                <p class="prof-item">Product Designer</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="img-card">
+                <img
+                  src="./images/foto1/olga.jpg"
+                  alt="Фото Ольги Репиной"
+                  width="270"
+                  height="260"
+                  class="img"
+                />
+              </div>
+              <div class="content-card">
+                <h3 class="team-name">Ольга Репина</h3>
+                <p class="prof-item">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="img-card">
+                <img
+                  src="./images/foto1/nick.jpg"
+                  alt="Фото Николая Тарасова"
+                  width="270"
+                  height="260"
+                  class="img"
+                />
+              </div>
+              <div class="content-card">
+                <h3 class="team-name">Николай Тарасов</h3>
+                <p class="prof-item">Marketing</p>
+              </div>
+            </li>
+            <li class="card">
+              <div class="img-card">
+                <img
+                  src="./images/foto1/mihail.jpg"
+                  alt="Фото Михаила Ермакова"
+                  width="270"
+                  height="260"
+                  class="img"
+                />
+              </div>
+              <div class="content-card">
+                <h3 class="team-name">Михаил Ермаков</h3>
+                <p class="prof-item">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section-footer">
+      <div class="container">
+        <div class="contact-footer">
+          <div class="logo-footer">
+            <a href="./" class="logo">
+              <span class="span-web">Web</span
+              ><span class="span-studio-footer">Studio</span></a
+            >
+          </div>
+          <address class="address">
+            <ul class="list list-footer">
+              <li>
+                <a
+                  href="https://goo.gl/maps/Ed6KkoPYDBSFaAVK7"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="link-item address"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="link-item email"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="link-item tel"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
