@@ -312,6 +312,18 @@ body {
   display: flex;
   justify-content: center;
 }
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.card-item {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 3 * 30px) / 3);
+}
+
 /*Footer*/
 .section-footer {
   background-color: var(--bg-hero-color);
